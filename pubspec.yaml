@@ -1,0 +1,37 @@
+name: parking_space_detector
+description: "Parking Space Detector - local/non-Firebase sample"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.0.5
+  http: ^1.1.0
+  uuid: ^3.0.6
+  intl: ^0.17.0
+  flutter_map: ^6.0.0
+  latlong2: ^0.9.0
+  flutter_svg: ^1.1.0
+  url_launcher: ^6.1.10
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/markers/green_pin.png
+    - assets/markers/red_pin.png
+    - assets/markers/blue_pin.png
+    - assets/markers/logo.png
+    - assets/markers/Diver.png
